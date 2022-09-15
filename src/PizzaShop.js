@@ -36,14 +36,21 @@ export default function PersonalPizza() {
         {options.map((option) => (
           <button value={option} onClick={toggleTopping} key={option}>
             {selected.includes(option) ? (
-              <span style={{ color: "red" }}>حذف کن: </span>
+              <span style={{ color: "red", fontWeight: 600 }}>- </span>
             ) : (
-              <span style={{ color: "green" }}>اضافه کن: </span>
+              <span style={{ color: "green", fontWeight: 600 }}>+ </span>
             )}
             {option}
           </button>
         ))}
-        <p>درخواست یک لقمه {selected.join(", ")}</p>
+        <p>درخواست یک لقمه {selected.join("، ")}</p>
+        {/*         {options.map((option) => (
+          <button value={option} onClick={toggleTopping} key={option}>
+            {selected.includes(option) ? "Remove " : "Add "}
+            {option}
+          </button>
+        ))}
+        <p>Order a {selected.join(", ")} pizza</p> */}
       </div>
     </div>
   );
