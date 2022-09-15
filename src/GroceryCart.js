@@ -34,7 +34,8 @@ export default function GroceryCart() {
       <ul>
         {cart.map((item, index) => (
           <li onClick={() => removeItem(index)} key={index}>
-            {item} {<img src={Cross} style={{ height: 14, width: 14 }} />}
+            {item}{" "}
+            {<img src={Cross} style={{ height: 14, width: 14 }} alt="" />}
           </li>
         ))}
       </ul>
