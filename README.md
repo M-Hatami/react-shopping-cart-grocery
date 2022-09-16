@@ -8,6 +8,10 @@
 <li>فروشگاه خواروبار فروشی/بقالی - فروش کالا</li>
 <li>اغذیه فروشی مثل چلوکبابی، حلیم فروشی - فروش خدمات</li>
 <ul>
+<div style="box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));">
+<img src="https://github.com/M-Hatami/react-shopping-cart-grocery/blob/master/public/online-bakali.jpg?raw=true" alt="نمونه رابط کاربری"/>
+</div>
 <br/>
 <p>برای استفاده از یک ارائه زنده به <a href="https://react-shopping-cart-grocery.netlify.app/">نمونه برخط</a> این طرح مراجعه فرمایید.
 </p>
